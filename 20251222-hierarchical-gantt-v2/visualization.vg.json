@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v6.json",
   "usermeta": {
-    "version": "02.02",
+    "version": "02.03",
     "developedBy": "Madison Giammaria",
     "gitHub": "https://github.com/Giammaria",
     "linkedIn": "https://www.linkedin.com/in/madison-giammaria-58463b33",
@@ -1555,7 +1555,7 @@
                           "x": {
                             "signal": "configRow.levelIndentWidth*((datum.level)+0.15)"
                           },
-                          "x2": {"signal": "ganttDimensions.width"},
+                          "x2": {"signal": "width-ganttDimensions.width"},
                           "y": {"field": "y2", "offset": -0.2},
                           "y2": {"field": "y2", "offset": 0.2},
                           "fill": {"value": "#D8D8DA"},
