@@ -2779,6 +2779,9 @@
                       "interactive": true,
                       "encode": {
                         "update": {
+                          "tooltip": {
+                            "signal": "data('gantt-item-tooltip-data')[0]"
+                          },
                           "x": {
                             "signal": "panAndZoomMode ? datum.x1 : 0",
                             "offset": {"signal": "-configRow.rowHeight"}
